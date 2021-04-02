@@ -14,8 +14,8 @@ function addIdea() {
     
         p.innerHTML = textarea.value;
     
-        iEdit.classList.add("fas", "fa-edit");
-        iDelete.classList.add("fas", "fa-trash-alt");
+        iEdit.classList.add("fas", "fa-edit", "text-warning");
+        iDelete.classList.add("fas", "fa-trash-alt", "text-danger");
         spanIcons.appendChild(iEdit);
         spanIcons.appendChild(iDelete);
     
